@@ -44,6 +44,22 @@ int main(){
      // una constante con const en C++ se refiere a que el dato no puede cambiar, pero no tiene aque ser un int
      // puede ser un string  no cambie nunca.
 
+     /*
+    float
+            Precisión: float es un tipo de dato de punto flotante de precisión simple.
+            Tamaño: Generalmente ocupa 4 bytes (32 bits) de memoria.
+            Precisión decimal: Puede representar aproximadamente 7 dígitos decimales significativos.
+
+
+    double
+            Precisión: double es un tipo de dato de punto flotante de doble precisión.
+            Tamaño: Generalmente ocupa 8 bytes (64 bits) de memoria.
+            Precisión decimal: Puede representar aproximadamente 15-16 dígitos decimales significativos.
+    */
+
+
+
+
 
 }
 
