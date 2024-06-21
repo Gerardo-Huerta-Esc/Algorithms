@@ -2,7 +2,8 @@
 
 
 
-int main(){
+int main()
+{
     int x;  //Declara la variable y el tipo de dato
     x = 5;  // asigna un valor a la variable
  
