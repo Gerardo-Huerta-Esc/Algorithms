@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 
 int main(){
@@ -22,6 +23,6 @@ int main(){
     cin >> estatura;
 
     imc = peso/pow(estatura,2);
-    cout << "IMC: " << imc << endl;
+    cout << "IMC: " << fixed << setprecision(2) << imc << endl;
 
 }
