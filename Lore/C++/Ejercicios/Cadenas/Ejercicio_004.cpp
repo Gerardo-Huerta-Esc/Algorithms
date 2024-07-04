@@ -5,5 +5,13 @@ pantalla si es par o impar.*/
 using namespace std;
 
 int main(){
-    
+    int n;
+    cout << "Give an integer number n" << endl;
+    cin >> n;
+
+    if(n%2==0){
+        cout << n << " is a even" << endl;
+    }else{
+        cout << n << " is odd" << endl;
+    }
 }
