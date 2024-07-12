@@ -105,3 +105,5 @@ print(desarrollador.mostrar_informacion())
 print(gerente.mostrar_informacion())
 print(desarrollador_gerente.mostrar_informacion())
 print(desarrollador_gerente.mostrar_responsabilidades())
+
+
