@@ -24,7 +24,6 @@ void factura(float cantidad, float IVA=0.21){ // IVA debe estar en  %
 
 
 
-
 int  main(){
     factura(100,0.85);
     factura(100);
