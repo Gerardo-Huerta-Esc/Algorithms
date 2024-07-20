@@ -1,4 +1,4 @@
-#ordenar 3 números de mayor a menor
+# #ordenar 3 números de mayor a menor
 
 num1 = 1
 num2 = 5
@@ -23,5 +23,4 @@ def main():
 
 if __name__ == '__main__' and num1 != num2 != num3:
     main()
-
 
