@@ -1,8 +1,9 @@
-/*Lo punteros son una característica fundamental den C++ que permite una gestión eficiente y detallada
+/*Lo punteros son una característica fundamental en C++ que permiten una gestión eficiente y detallada
 de la memoria y otros recursos de hadware. Los punteros son variables cuya función principal es almacenar
 direcciones de memoria.
 
 ¿Qué puede haber en estas direcciones de memoria almacenadas por los punteros?
+
 - Variables primitivas
 -Arrays
 -clases
