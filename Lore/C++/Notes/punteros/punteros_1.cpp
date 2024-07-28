@@ -43,9 +43,4 @@ int main(){
     
     *puntero = 55;
     cout << variable << endl; // el valor de la variable ahora es 55 
-
-
-
-
-
 }
