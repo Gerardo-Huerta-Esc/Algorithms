@@ -38,7 +38,7 @@ public : double estado()
 
 };
 
-
+//  CREAMOS UNA INSTANCIA
 
 int main(){
 
