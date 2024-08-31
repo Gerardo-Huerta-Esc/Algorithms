@@ -22,7 +22,31 @@ X can be placed before L (50) and C (100) to make 40 and 90.
 C can be placed before D (500) and M (1000) to make 400 and 900.
 Given a roman numeral, convert it to an integer.
 
- 
+
+
+
+
+
+
+
+
+
+ cadena = "hola mundo"
+caracter = 'o'
+posiciones = []
+
+pos = cadena.find(caracter)
+while pos != -1: # si no encuentra el carácter buscado, por defecto find retorna -1
+    posiciones.append(pos)
+    pos = cadena.find(caracter, pos + 1)
+
+print(posiciones)  # Output: [1, 9]
+
+
+
+
+
+
 
 Example 1:
 
@@ -49,13 +73,14 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 '''
 dictionary = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
 
-string = 'III'
+string = 'XXX'
 
 count = 0
 for i in string:
     count += dictionary[i]
-    print(count)
 
+
+print(count)
 
 
 #print(dictionary['D'])
