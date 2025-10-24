@@ -17,16 +17,19 @@ df = pd.DataFrame(data)
 
 
 
-# df_total = df[df['producto']=='A']
-# print(df_total)
-# a = df_total["ventas"].sum()
-# print(f'Las ventas totales de A son: {a}')
 
-
+#1
 for i in ["A","B"]:
     df_total = df[df['producto']==i]
     print(df_total)
     a = df_total["ventas"].sum()
-    print(f'Las ventas totales de {i} son: {a}')
+    print(f"promedio total de ventas para {i}: {df_total['ventas'].mean()}")
+    print(f"Las ventas totales de {i} son: {a}")
 
+    df_total.loc[df_total['ventas'] == df_total['ventas'].mean(), "comparacion"] = "Igual al promedio" 
+    df_total.loc[df_total['ventas'] < df_total['ventas'].mean(), "comparacion"] = "menor al promedio"
+    df_total.loc[df_total['ventas'] > df_total['ventas'].mean(), "comparacion"] = "Mayor al promedio"
 
+    print(f'df completo {df_total}')
+
+ 
